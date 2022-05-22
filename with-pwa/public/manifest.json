@@ -1,0 +1,26 @@
+{
+	"short_name": "Next PWA",
+	"name": "Next PWA Example",
+	"description": "This is an example app build on NextJS",
+	"icons": [
+		{ "src": "/favicon/icon-48x48.png", "type": "image/png", "sizes": "48x48" },
+		{ "src": "/favicon/icon-96x96.png", "type": "image/png", "sizes": "96x96" },
+		{ "src": "/favicon/icon-128x128.png", "type": "image/png", "sizes": "128x128" },
+		{ "src": "/favicon/icon-512x512.png", "type": "image/png", "sizes": "512x512" },
+		{ "src": "/favicon/maskable.png", "type": "image/png", "sizes": "128x128", "purpose": "maskable" }
+	],
+	"shortcuts": [
+		{
+			"name": "Activity Feed",
+			"short_name": "Feed",
+			"description": "View your recent activity",
+			"url":"/home",
+			"icons":[{"src": "/favicon/icon-96x96.png", "type": "image/png", "sizes": "48x48"}]
+		}
+	],
+	"start_url": "/",
+	"background_color": "#ffff",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#000000"
+}
