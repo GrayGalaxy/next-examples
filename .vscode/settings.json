@@ -7,32 +7,19 @@
 	"editor.fontFamily": "'fira code','cascadia code', Consolas, 'Courier New', monospace",
 	// Hide files and folders
 	"files.exclude": {
-		"**/node_modules": false,
-		"**/.vercel": false,
-		"**/next-env.d.ts": false,
-		"**/.contentlayer": false,
-		"**/.next": false,
-		"**/yarn.lock": false,
-		"**/pnpm-lock.yaml": false,
-		"**/package-lock.json": false
+		"**/node_modules": true,
+		"**/.vercel": true,
+		"**/next-env.d.ts": true,
+		"**/.next": true,
+		"**/yarn.lock": true,
+		"**/pnpm-lock.yaml": true,
+		"**/package-lock.json": true
 	},
-	"eslint.options": {
-		"extensions": [".js", ".jsx", ".ts", ".tsx"]
-	},
-	"auto-close-tag.activationOnLanguage": [
-		"typescript",
-		"typescriptreact",
-		"mdx",
-		"md"
-	],
-	"auto-rename-tag.activationOnLanguage": [
-		"typescript",
-		"typescriptreact",
-		"mdx",
-		"md"
-	],
-
 	// GIT
 	"git.confirmSync": false,
-	"git.enableCommitSigning": true
+	"git.enableCommitSigning": true,
+	// File Association
+	"files.associations": {
+		".cleanup": "properties"
+	}
 }

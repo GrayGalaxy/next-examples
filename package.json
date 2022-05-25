@@ -2,13 +2,14 @@
 	"name": "next-examples",
 	"version": "1.0.0",
 	"description": "A monorepo of NextJS example projects",
-	"workspaces":[
-
-	],
+	"license": "MIT",
 	"scripts": {
 		"cleanup": "node scripts/cleanup.mjs"
 	},
 	"keywords": ["nextjs", "example", "monorepo"],
 	"author": "Avirup Ghosh (https://github.com/graygalaxy)",
-	"license": "MIT"
+	"dependencies": {
+		"globby": "^13.1.1",
+		"inquirer": "^8.2.4"
+	}
 }

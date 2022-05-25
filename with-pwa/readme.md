@@ -4,7 +4,7 @@ This is an example PWA app with some of the interesting features of PWA
 
 ## Features
 
-- **Ability to install the site as APP**: You can install the site as fully Progressive Web App and also can upload it to Google Play Store or Microsoft Store.
+- **Ability to install the site as APP**: You can install the site as a fully Progressive Web App and also can upload it to Google Play Store or Microsoft Store.
 - The site behaves as a **Native App**
 - **Offline Access**: You can access the site (with limited access in some cases) without having internet.
 - The app will be **cross-platform**
